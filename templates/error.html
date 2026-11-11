@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block title %}Error · ResumeFlow{% endblock %}{% block content %}<section class="panel"><div class="eyebrow">ERROR {{ code }}</div><h1>Something went wrong</h1><p>{{ message }}</p><a class="button primary" href="{{ url_for('dashboard') }}">Return to dashboard</a></section>{% endblock %}
